@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "module": "enter-your-module-name",
-            "justMyCode": true
+            "justMyCode": false
         }
     ]
 }

@@ -1,5 +1,10 @@
-hotel_names = ['aloHotel', 'Appart lounge','Sleepower', 'Penthouseus',]
-for name in hotel_names:
- print(name)
- del hotel_names[0]
-print(hotel_names)
+
+def make_coffee(size, sugar_dose=2):
+    if sugar_dose > 5:
+        return 'Слишком много сахара!'
+    else:
+        return f'Ваш кофе объемом {size} мл с {sugar_dose} кусочками сахара готов!'
+
+text = make_coffee(300)
+
+print(text)
